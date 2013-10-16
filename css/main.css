@@ -132,6 +132,8 @@ body {
   padding: 0em;
   font-weight: 100;
   font-family: "museo-sans",sans-serif;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .site {

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+Gallery
+<div class="getaround">
+  <div class="left">
+    {% if page.previous.url %}
+      <a href="{{page.previous.url}}" title="Previous Post:
+      {{page.previous.title}}" rel="prev">&laquo; {{page.previous.title}}</a>
+    {% else %}
+      <a href="/" rel="home">&larr; Back Home</a>
+    {% endif %}
+  </div>
+</div>
+
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+{{ content }}
+</div>
