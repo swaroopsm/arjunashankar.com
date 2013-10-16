@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*FONTSMOOTHING*/
+* { text-shadow: 0 1px 1px rgba(255,255,255,.3); }
+body { -webkit-font-smoothing: antialiased; font-smoothing: antialiased; font-weight: 100; color: #222; line-height: 1.6; padding:0em 2em; font-size: 14px; font-family: Helvetica, Arial, sans-serif; }
+
+/* BOLD AND ITALIC*/
+em, i {font-style: italic;} strong,b {font-weight: 700;}
+
+/* Headings and weights */
+h1, h2, h3, h4, h5 { font-weight: 700; margin-top: 1em; line-height: 1.1em;} h1 { font-size: 1.8em;} h2 { font-size: 1.6em;} h3 { font-size: 1.4em;} h4 { font-size: 1.3em;} h5 { font-size: 1.0em;}
+
+/* INLINE AND CODE */
+code {font-family: monospace; background-color: #f0f0f0; padding: 0.2em; font-size: 80%; }
+pre {background-color: #f0f0f0; margin-top: 1em;}
+sup {font-size: 60%;vertical-align: super;}
+sub {font-size: 60%;vertical-align: sub;}
+hr {clear: both; border: none; outline: none; height: 1px; background-color: #222; margin-top: 1em;}
+
+/* BLOCK ELEMS*/
+p, ul, ol, blockquote { margin-top: 1em;}
+li p {margin: 0em;}
+
+/*LISTS*/
+ul li {list-style-type: square;}
+ol li {list-style-type: decimal-leading-zero;}
+li ul, li ol { margin-left: 1em; margin-top: 0em; margin-bottom: 0em;}
+li ul li {list-style-type: disc;}
+dl {clear: both;}
+dt {font-weight: bold; margin-top: 0.4em;}
+
+/*BLOCKQUOTES*/
+blockquote {margin-left: 1em; border-left: 4px solid #f0f0f0; padding-left: 1em;}
+
+/* TABLES */
+table {margin-top: 1em;border-bottom: 1px solid #222;}
+thead {background-color: #222; color: white;}
+tr:nth-child(2n) {background-color: #f0f0f0;}
+td, th {padding: 0.4em;}
+
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
