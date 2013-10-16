@@ -83,6 +83,6 @@ See my cat Maga. She makes sound. Lots and lots of it. She has a friend Ponky wh
 
 {% youtube DvuKxL4LOqc 640 360 %}
 
-Both Maga and Diana Damrau make sounds. And we have a relable playground to make sound. So lets make more sounds.
+Both Maga and Diana Damrau make sounds. And since we have a relable playground to make sound, we can wait until the next post.
 
 [damrau]:    http://www.youtube.com/watch?v=UXOYcd6KZ0E

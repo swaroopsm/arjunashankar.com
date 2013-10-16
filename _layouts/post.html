@@ -5,9 +5,9 @@ layout: default
   <div class="left">
     {% if page.previous.url %}
       <a href="{{page.previous.url}}" title="Previous Post:
-      {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+      {{page.previous.title}}" rel="prev">&laquo; {{page.previous.title}}</a>
     {% else %}
-      <a href="/">&larr; Back Home</a>
+      <a href="/" rel="home">&larr; Back Home</a>
     {% endif %}
   </div>
 </div>
