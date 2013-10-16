@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Math and Music in Javascript"
-date:   2013-10-16 00:30:51
+date:   2013-09-20 00:30:51
 categories: javascript
 ---
 

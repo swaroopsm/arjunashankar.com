@@ -56,7 +56,7 @@ body { -webkit-font-smoothing: antialiased; font-smoothing: antialiased; font-we
 em, i {font-style: italic;} strong,b {font-weight: 700;}
 
 /* Headings and weights */
-h1, h2, h3, h4, h5 { font-weight: 700; margin-top: 1em; line-height: 1.1em;} h1 { font-size: 1.8em;} h2 { font-size: 1.6em;} h3 { font-size: 1.4em;} h4 { font-size: 1.3em;} h5 { font-size: 1.0em;}
+h1, h2, h3, h4, h5 { font-weight: 500; margin-top: 1em; line-height: 1.1em;} h1 { font-size: 1.8em;} h2 { font-size: 1.6em;} h3 { font-size: 1.4em;} h4 { font-size: 1.3em;} h5 { font-size: 1.0em;}
 
 /* INLINE AND CODE */
 code {font-family: monospace; background-color: #f0f0f0; padding: 0.2em; font-size: 80%; }
@@ -150,7 +150,15 @@ a:hover {
   color: darkturquoise;
 }
 
-h1.title a {font-weight: 100;}
+.top {
+  font-size: 400%;
+  line-height: 1;
+  color: darkturquoise;
+}
+
+h1 {margin-top: 0em;}
+
+h1.title a {font-weight: 100; margin-top: 0em; color: darkturquoise;}
 
 p.description {
   margin-top: 0.3em;
