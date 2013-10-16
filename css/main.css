@@ -96,7 +96,7 @@ td, th {padding: 0.4em;}
 /* standard */
 .post pre {
   border: 1px solid #ddd;
-  background-color: paleturquoise;
+  background-color: linen;
   padding: 0 .4em;
 }
 
@@ -106,7 +106,7 @@ td, th {padding: 0.4em;}
 
 .post code {
   border: 1px solid #ddd;
-  background-color: paleturquoise;
+  background-color: linen;
   padding: 0 .2em;
 }
 
@@ -150,4 +150,15 @@ a:hover {
   color: darkturquoise;
 }
 
-h1 {font-weight: 100;}
+h1.title a {font-weight: 100;}
+
+p.description {
+  margin-top: 0.3em;
+  margin-bottom: 2em;
+}
+
+.footer {
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid mediumvioletred;
+}
