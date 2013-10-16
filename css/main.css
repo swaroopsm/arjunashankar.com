@@ -131,6 +131,7 @@ body {
   background-color: black;
   padding: 0em;
   font-weight: 100;
+  font-family: "museo-sans",sans-serif;
 }
 
 .site {
@@ -142,8 +143,11 @@ body {
 a {
   font-weight: 500;
   color: violet;
+  text-decoration: none;
 }
 
 a:hover {
-
+  color: darkturquoise;
 }
+
+h1 {font-weight: 100;}
