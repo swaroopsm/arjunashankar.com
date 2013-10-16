@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gonecase
-image: "back1.jpg"
+image: "pork.gif"
 ---
 
 <div id="home">
@@ -11,15 +11,21 @@ image: "back1.jpg"
   <p>I run the <a href="http://www.thebabblerstudio.com">theBabblerStudio</a>.</p>
   <p>I live and work out of Cooke Town in Bangalore, India.</p>
 
-  <h2>Blog Posts</h2>
+  <h2>POSTS</h2>
   <ul class="posts">
     {% for post in site.categories['blog'] %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> //  {{post.tag}}</li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{post.title}}">{{ post.title }}</a> //  {{post.tag}}</li>
     {% endfor %}
   </ul>
 
-  <h2>Sketchbooks</h2>
+  <h2>SKETCHBOOKS</h2>
+  <br>
     {% for post in site.categories['sketchbook'] %}
-      <a href="{{ post.url }}">{{ post.title }}</a>
+    <div class="half">
+      <a href="{{ post.url }}" title="Gallery : {{post.title}}">
+      <img src="/images/{{ post.thumb }}" />
+      {{ post.title }}</a> <br>
+      {{ post.date | date_to_string }}
+    </div>
     {% endfor %}
 </div>
