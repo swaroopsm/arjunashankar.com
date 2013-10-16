@@ -2,7 +2,9 @@
 layout: post
 title:  "Math and Music in Javascript Part I"
 date:   2013-10-08 00:30:51
-categories: javascript
+tag: "javascript"
+categories: blog
+image: "back1.jpg"
 ---
 
 Once upon a time I was walking around the top of my table. My cat maga approached me with a woeful look and meowed. I meowed back. Just then, the door burst open and in walked Pia and Appachu bearing gifts from New York. There was chocolate and this book by Leon Harkleroad the mathman.
