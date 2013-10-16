@@ -96,7 +96,7 @@ td, th {padding: 0.4em;}
 /* standard */
 .post pre {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: paleturquoise;
   padding: 0 .4em;
 }
 
@@ -106,7 +106,7 @@ td, th {padding: 0.4em;}
 
 .post code {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: paleturquoise;
   padding: 0 .2em;
 }
 
@@ -123,4 +123,27 @@ td, th {padding: 0.4em;}
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+
+
+body {
+  background-color: black;
+  padding: 0em;
+  font-weight: 100;
+}
+
+.site {
+  padding: 2em;
+  max-width: 550px;
+  background-color: white;
+}
+
+a {
+  font-weight: 500;
+  color: violet;
+}
+
+a:hover {
+
 }
