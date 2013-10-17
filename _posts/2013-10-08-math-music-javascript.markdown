@@ -9,7 +9,7 @@ image: "back1.jpg"
 
 Once upon a time I was walking around the top of my table. My cat maga approached me with a woeful look and meowed. I meowed back. Just then, the door burst open and in walked Pia and Appachu bearing gifts from New York. There was chocolate and this book by Leon Harkleroad the mathman.
 
-I laughed and ate chocalate and started to look at the book. Then I decided to read it later and instead start doing some stuff with this new webAudio API.
+I laughed and ate chocolate and started to look at the book. Then I decided to read it later and instead start doing some stuff with this new webAudio API.
 
 This series of articles is me deciphering the logic in music and working my way around this webAudioAPI.
 
@@ -26,7 +26,6 @@ So to avoid this mess. we just do this:
 {% highlight javascript %}
 window.AudioContext = window.AudioContext || window.webkitAudioContext;
 {% endhighlight %}
-
 
 NOW lets start.
 
@@ -85,6 +84,6 @@ See my cat Maga. She makes sound. Lots and lots of it. She has a friend Ponky wh
 
 {% youtube DvuKxL4LOqc 640 360 %}
 
-Both Maga and Diana Damrau make sounds. And since we have a relable playground to make sound, we can wait until the next post.
+Both Maga and Diana Damrau make sounds. And since we have a reliable playground to make sound, we can wait until the next post.
 
 [damrau]:    http://www.youtube.com/watch?v=UXOYcd6KZ0E
