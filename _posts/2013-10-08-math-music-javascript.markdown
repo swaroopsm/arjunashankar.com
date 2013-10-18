@@ -79,7 +79,6 @@ amp.gain.value = 0.5;
 Nice, safe and stable comes that sound. A. 440 hertz. Great, I feel another rant coming up.
 
 See my cat Maga. She makes sound. Lots and lots of it. She has a friend Ponky who makes more sound than her. Sometimes when they meet in the night they sing beautiful arias on rooftops. Why, last night they started to sing Mozart's queen of the night. If you don't know what that is, you should. [Here is Diana Damrau][damrau], the most mindblowng performer in the history of the universe, singing it. Ms Damrau reminds me of Maga sometimes.
-
 .
 
 {% youtube DvuKxL4LOqc 640 360 %}
